@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.num-input {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.picker input {
+    cursor: pointer;
+}
+
+.picker label {
+    font-size: large;
+    font-weight: 500;
+}
+
+.num-input input {
+    width: 15vw;
+    height: 3vh;
+    min-height: 30px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.num-input button {
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    cursor: pointer;
+}
